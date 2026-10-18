@@ -14,6 +14,6 @@ for _ in range(100):
         w2=w2+e*s*y[i]
         b=b+s*e
 
-print(w1,w2,b)
+print("weight1 :",w1,"weight2 :",w2,"constant :", b)
 for i in range (len(x)):
-    print(z[i],w1*x[i]+w2*y[i]+b)
+    print("Real value :",z[i],"Predicted value :",w1*x[i]+w2*y[i]+b)
